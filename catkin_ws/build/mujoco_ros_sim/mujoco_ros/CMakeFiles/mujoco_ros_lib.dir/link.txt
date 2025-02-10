@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libmujoco_ros_lib.so -o /home/mms-wonchan/catkin_ws/devel/lib/libmujoco_ros_lib.so CMakeFiles/mujoco_ros_lib.dir/__/mujoco210/include/uitools.c.o CMakeFiles/mujoco_ros_lib.dir/src/mjros.cpp.o   -L/home/mms-wonchan/catkin_ws/src/mujoco_ros_sim/mujoco_ros/../mujoco210/bin 

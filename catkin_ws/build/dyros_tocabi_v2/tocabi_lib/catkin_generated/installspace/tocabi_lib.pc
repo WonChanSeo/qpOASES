@@ -1,0 +1,8 @@
+prefix=/home/mms-wonchan/catkin_ws/install
+
+Name: tocabi_lib
+Description: Description of tocabi_lib
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltocabi_lib -lrbdl -lrbdl_urdfreader -lqpOASES
+Requires: eigen_conversions roscpp tocabi_msgs

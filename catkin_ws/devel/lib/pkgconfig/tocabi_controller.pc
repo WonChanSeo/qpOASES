@@ -1,0 +1,8 @@
+prefix=/home/mms-wonchan/catkin_ws/devel
+
+Name: tocabi_controller
+Description: Description of tocabi_controller
+Version: 0.0.0
+Cflags: -I/home/mms-wonchan/catkin_ws/src/dyros_tocabi_v2/tocabi_controller/include
+Libs: -L${prefix}/lib -ltocabi_controller
+Requires: roscpp roslib tocabi_lib tocabi_msgs tocabi_cc tocabi_avatar

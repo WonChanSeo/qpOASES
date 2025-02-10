@@ -1,0 +1,8 @@
+prefix=/home/mms-wonchan/catkin_ws/devel
+
+Name: tocabi_gui
+Description: Description of tocabi_gui
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -ltocabi_gui
+Requires: roscpp rqt_gui rqt_gui_cpp sensor_msgs std_msgs geometry_msgs tocabi_msgs

@@ -1,0 +1,8 @@
+prefix=/home/mms-wonchan/catkin_ws/devel
+
+Name: tocabi_avatar
+Description: Description of tocabi_avatar
+Version: 0.0.0
+Cflags: -I/home/mms-wonchan/catkin_ws/src/tocabi_avatar/include
+Libs: -L${prefix}/lib -ltocabi_avatar
+Requires: tocabi_lib tocabi_msgs

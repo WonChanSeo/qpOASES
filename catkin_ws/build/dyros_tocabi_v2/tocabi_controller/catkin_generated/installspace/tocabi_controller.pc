@@ -1,0 +1,8 @@
+prefix=/home/mms-wonchan/catkin_ws/install
+
+Name: tocabi_controller
+Description: Description of tocabi_controller
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltocabi_controller
+Requires: roscpp roslib tocabi_lib tocabi_msgs tocabi_cc tocabi_avatar

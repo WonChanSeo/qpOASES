@@ -1,0 +1,8 @@
+prefix=/home/mms-wonchan/catkin_ws/install
+
+Name: tocabi_moveit_config
+Description: Description of tocabi_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

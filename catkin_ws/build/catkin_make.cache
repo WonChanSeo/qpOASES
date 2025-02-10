@@ -1,0 +1,2 @@
+dyros_tocabi_v2/tocabi_controller:dyros_tocabi_v2/tocabi_description:dyros_tocabi_v2/tocabi_ecat:dyros_tocabi_v2/tocabi_launch_manager:dyros_tocabi_v2/tocabi_lib:dyros_tocabi_v2/tocabi_moveit_config:dyros_tocabi_v2/tocabi_msgs:dyros_tocabi_v2/tocabi_sensor:dyros_tocabi_v2/tocabi_task_manager:mujoco_ros_sim/mujoco_ros:mujoco_ros_sim/mujoco_ros_msgs:tocabi_avatar:tocabi_cc:tocabi_gui
+-DCATKIN_DEVEL_PREFIX=/home/mms-wonchan/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mms-wonchan/catkin_ws/install -G Unix Makefiles

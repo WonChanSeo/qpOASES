@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mms-wonchan/catkin_ws/src/dyros_tocabi_v2/tocabi_controller/src/shm_manager.cpp
+iostream
+-
+shm_msgs.h
+/home/mms-wonchan/catkin_ws/src/dyros_tocabi_v2/tocabi_controller/src/shm_msgs.h
+
+/home/mms-wonchan/catkin_ws/src/dyros_tocabi_v2/tocabi_lib/include/shm_msgs.h
+pthread.h
+-
+atomic
+-
+sys/shm.h
+-
+sys/ipc.h
+-
+time.h
+-
+iostream
+-
+

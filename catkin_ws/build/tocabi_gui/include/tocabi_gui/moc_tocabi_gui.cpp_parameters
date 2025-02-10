@@ -1,0 +1,8 @@
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="tocabi_gui"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-DCOMPILE_MELODIC
+-o
+/home/mms-wonchan/catkin_ws/build/tocabi_gui/include/tocabi_gui/moc_tocabi_gui.cpp
+/home/mms-wonchan/catkin_ws/src/tocabi_gui/include/tocabi_gui/tocabi_gui.h

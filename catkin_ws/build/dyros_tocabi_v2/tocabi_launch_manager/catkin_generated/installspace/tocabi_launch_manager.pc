@@ -1,0 +1,8 @@
+prefix=/home/mms-wonchan/catkin_ws/install
+
+Name: tocabi_launch_manager
+Description: Description of tocabi_launch_manager
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

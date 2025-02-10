@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mms-wonchan/catkin_ws/install/setup.sh
