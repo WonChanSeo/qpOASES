@@ -35,6 +35,7 @@
 
 #include <qpOASES/QProblem.hpp>
 #include <qpOASES/LapackBlasReplacement.hpp>
+#include <iostream>
 
 
 BEGIN_NAMESPACE_QPOASES
@@ -264,6 +265,7 @@ returnValue QProblem::init(	SymmetricMatrix *_H, const real_t* const _g, Matrix 
 							const real_t* const _R
 							)
 {
+	// std::cout << "init111" << std::endl;
 	int_t i;
 	int_t nV = getNV( );
 	int_t nC = getNC( );
@@ -322,6 +324,7 @@ returnValue QProblem::init(	const real_t* const _H, const real_t* const _g, cons
 							const real_t* const _R
 							)
 {
+	// std::cout << "init222" << std::endl;
 	int_t i;
 	int_t nV = getNV( );
 	int_t nC = getNC( );
@@ -436,13 +439,14 @@ returnValue QProblem::init(	const char* const H_file, const char* const g_file, 
 		/* 3) Call to main initialisation routine. ...passing R here!] */
 		return solveInitialQP( xOpt,yOpt,guessedBounds,guessedConstraints,R, nWSR,cputime );
 	}
-}
+} 
 
 
 
 /*
  *	h o t s t a r t
  */
+// USED
 returnValue QProblem::hotstart(	const real_t* const g_new,
 								const real_t* const lb_new, const real_t* const ub_new,
 								const real_t* const lbA_new, const real_t* const ubA_new,
@@ -450,6 +454,7 @@ returnValue QProblem::hotstart(	const real_t* const g_new,
 								const Bounds* const guessedBounds, const Constraints* const guessedConstraints
 								)
 {
+	// std::cout << "hotstart111" << std::endl;
 	int_t i, nActiveFar;
 	int_t nV = getNV ();
 	int_t nC = getNC ();

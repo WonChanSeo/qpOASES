@@ -35,6 +35,7 @@
 
 
 #include <qpOASES/SQProblem.hpp>
+#include <iostream>
 
 
 BEGIN_NAMESPACE_QPOASES
@@ -103,6 +104,7 @@ returnValue SQProblem::hotstart(	SymmetricMatrix *H_new, const real_t* const g_n
 									const Bounds* const guessedBounds, const Constraints* const guessedConstraints
 									)
 {
+	std::cout << "hotstart222222" << std::endl;
 	if ( ( getStatus( ) == QPS_NOTINITIALISED )       ||
 		 ( getStatus( ) == QPS_PREPARINGAUXILIARYQP ) ||
 		 ( getStatus( ) == QPS_PERFORMINGHOMOTOPY )   )
@@ -147,6 +149,7 @@ returnValue SQProblem::hotstart(	SymmetricMatrix *H_new, const real_t* const g_n
 /*
  *	h o t s t a r t
  */
+// USED
 returnValue SQProblem::hotstart(	const real_t* const H_new, const real_t* const g_new, const real_t* const A_new,
 									const real_t* const lb_new, const real_t* const ub_new,
 									const real_t* const lbA_new, const real_t* const ubA_new,
@@ -154,6 +157,7 @@ returnValue SQProblem::hotstart(	const real_t* const H_new, const real_t* const 
 									const Bounds* const guessedBounds, const Constraints* const guessedConstraints
 									)
 {
+	// std::cout << "hotstart333333333" << std::endl;
 	if ( ( getStatus( ) == QPS_NOTINITIALISED )       ||
 		 ( getStatus( ) == QPS_PREPARINGAUXILIARYQP ) ||
 		 ( getStatus( ) == QPS_PERFORMINGHOMOTOPY )   )

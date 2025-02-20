@@ -12,7 +12,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "COMPILE_SIMULATION"
-  "COMPILE_TOCABI_AVATAR"
   "COMPILE_TOCABI_CC"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
@@ -29,13 +28,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
   "/home/mms-wonchan/catkin_ws/src/tocabi_cc/include"
-  "/home/mms-wonchan/catkin_ws/src/tocabi_avatar/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/mms-wonchan/catkin_ws/build/tocabi_cc/CMakeFiles/tocabi_cc.dir/DependInfo.cmake"
-  "/home/mms-wonchan/catkin_ws/build/tocabi_avatar/CMakeFiles/tocabi_avatar.dir/DependInfo.cmake"
   "/home/mms-wonchan/catkin_ws/build/dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/DependInfo.cmake"
   )
 

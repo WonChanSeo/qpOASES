@@ -61,10 +61,8 @@ all: mujoco_ros_sim/mujoco_ros_msgs/all
 all: dyros_tocabi_v2/tocabi_msgs/all
 all: dyros_tocabi_v2/tocabi_lib/all
 all: mujoco_ros_sim/mujoco_ros/all
-all: tocabi_avatar/all
 all: tocabi_cc/all
 all: dyros_tocabi_v2/tocabi_controller/all
-all: dyros_tocabi_v2/tocabi_ecat/all
 all: tocabi_gui/all
 all: dyros_tocabi_v2/tocabi_sensor/all
 all: dyros_tocabi_v2/tocabi_task_manager/all
@@ -80,10 +78,8 @@ preinstall: mujoco_ros_sim/mujoco_ros_msgs/preinstall
 preinstall: dyros_tocabi_v2/tocabi_msgs/preinstall
 preinstall: dyros_tocabi_v2/tocabi_lib/preinstall
 preinstall: mujoco_ros_sim/mujoco_ros/preinstall
-preinstall: tocabi_avatar/preinstall
 preinstall: tocabi_cc/preinstall
 preinstall: dyros_tocabi_v2/tocabi_controller/preinstall
-preinstall: dyros_tocabi_v2/tocabi_ecat/preinstall
 preinstall: tocabi_gui/preinstall
 preinstall: dyros_tocabi_v2/tocabi_sensor/preinstall
 preinstall: dyros_tocabi_v2/tocabi_task_manager/preinstall
@@ -104,10 +100,8 @@ clean: mujoco_ros_sim/mujoco_ros_msgs/clean
 clean: dyros_tocabi_v2/tocabi_msgs/clean
 clean: dyros_tocabi_v2/tocabi_lib/clean
 clean: mujoco_ros_sim/mujoco_ros/clean
-clean: tocabi_avatar/clean
 clean: tocabi_cc/clean
 clean: dyros_tocabi_v2/tocabi_controller/clean
-clean: dyros_tocabi_v2/tocabi_ecat/clean
 clean: tocabi_gui/clean
 clean: dyros_tocabi_v2/tocabi_sensor/clean
 clean: dyros_tocabi_v2/tocabi_task_manager/clean
@@ -170,24 +164,6 @@ dyros_tocabi_v2/tocabi_description/preinstall:
 dyros_tocabi_v2/tocabi_description/clean: dyros_tocabi_v2/tocabi_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : dyros_tocabi_v2/tocabi_description/clean
-
-#=============================================================================
-# Directory level rules for directory dyros_tocabi_v2/tocabi_ecat
-
-# Recursive "all" directory target.
-dyros_tocabi_v2/tocabi_ecat/all:
-
-.PHONY : dyros_tocabi_v2/tocabi_ecat/all
-
-# Recursive "preinstall" directory target.
-dyros_tocabi_v2/tocabi_ecat/preinstall:
-
-.PHONY : dyros_tocabi_v2/tocabi_ecat/preinstall
-
-# Recursive "clean" directory target.
-dyros_tocabi_v2/tocabi_ecat/clean:
-
-.PHONY : dyros_tocabi_v2/tocabi_ecat/clean
 
 #=============================================================================
 # Directory level rules for directory dyros_tocabi_v2/tocabi_launch_manager
@@ -455,24 +431,6 @@ mujoco_ros_sim/mujoco_ros_msgs/clean: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/
 mujoco_ros_sim/mujoco_ros_msgs/clean: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_genpy.dir/clean
 
 .PHONY : mujoco_ros_sim/mujoco_ros_msgs/clean
-
-#=============================================================================
-# Directory level rules for directory tocabi_avatar
-
-# Recursive "all" directory target.
-tocabi_avatar/all: tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all
-
-.PHONY : tocabi_avatar/all
-
-# Recursive "preinstall" directory target.
-tocabi_avatar/preinstall:
-
-.PHONY : tocabi_avatar/preinstall
-
-# Recursive "clean" directory target.
-tocabi_avatar/clean: tocabi_avatar/CMakeFiles/tocabi_avatar.dir/clean
-
-.PHONY : tocabi_avatar/clean
 
 #=============================================================================
 # Directory level rules for directory tocabi_cc
@@ -1132,12 +1090,12 @@ mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp
 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/all: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/_mujoco_ros_msgs_generate_messages_check_deps_SimstatusM2C.dir/all
 	$(MAKE) -f mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/build.make mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/build.make mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=21,22,23,24,25 "Built target mujoco_ros_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=21,22,23,24,25,26 "Built target mujoco_ros_msgs_generate_messages_lisp"
 .PHONY : mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_lisp.dir/rule
@@ -1168,12 +1126,12 @@ mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_node
 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/all: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/_mujoco_ros_msgs_generate_messages_check_deps_SimstatusM2C.dir/all
 	$(MAKE) -f mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/build.make mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/build.make mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=26,27,28,29,30,31 "Built target mujoco_ros_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=27,28,29,30,31 "Built target mujoco_ros_msgs_generate_messages_nodejs"
 .PHONY : mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_generate_messages_nodejs.dir/rule
@@ -1420,7 +1378,7 @@ mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_gennodejs.dir/all: muj
 
 # Build rule for subdir invocation for target.
 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_gennodejs.dir/rule
@@ -1681,7 +1639,7 @@ mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_genlisp.dir/all: mujoc
 
 # Build rule for subdir invocation for target.
 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/mujoco_ros_msgs_genlisp.dir/rule
@@ -2674,12 +2632,12 @@ dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/all: dyros_tocabi_v2/tocabi
 dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/build.make dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/depend
 	$(MAKE) -f dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/build.make dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=56,57 "Built target tocabi_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=55,56,57 "Built target tocabi_lib"
 .PHONY : dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/all
 
 # Build rule for subdir invocation for target.
 dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 46
 	$(MAKE) -f CMakeFiles/Makefile2 dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/rule
@@ -2889,58 +2847,6 @@ mujoco_ros_sim/mujoco_ros/CMakeFiles/mujoco_ros_lib.dir/clean:
 .PHONY : mujoco_ros_sim/mujoco_ros/CMakeFiles/mujoco_ros_lib.dir/clean
 
 #=============================================================================
-# Target rules for target tocabi_avatar/CMakeFiles/tocabi_avatar.dir
-
-# All Build rule for target.
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_launch_manager/CMakeFiles/std_msgs_generate_messages_py.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_launch_manager/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_launch_manager/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_launch_manager/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_launch_manager/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: mujoco_ros_sim/mujoco_ros_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_msgs/CMakeFiles/tocabi_msgs_generate_messages_nodejs.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_msgs/CMakeFiles/tocabi_msgs_generate_messages_eus.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_msgs/CMakeFiles/tocabi_msgs_generate_messages_cpp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_msgs/CMakeFiles/tocabi_msgs_generate_messages_lisp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_msgs/CMakeFiles/tocabi_msgs_generate_messages_py.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/roscpp_generate_messages_eus.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/roscpp_generate_messages_py.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(MAKE) -f tocabi_avatar/CMakeFiles/tocabi_avatar.dir/build.make tocabi_avatar/CMakeFiles/tocabi_avatar.dir/depend
-	$(MAKE) -f tocabi_avatar/CMakeFiles/tocabi_avatar.dir/build.make tocabi_avatar/CMakeFiles/tocabi_avatar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=41 "Built target tocabi_avatar"
-.PHONY : tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all
-
-# Build rule for subdir invocation for target.
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 46
-	$(MAKE) -f CMakeFiles/Makefile2 tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
-.PHONY : tocabi_avatar/CMakeFiles/tocabi_avatar.dir/rule
-
-# Convenience name for target.
-tocabi_avatar: tocabi_avatar/CMakeFiles/tocabi_avatar.dir/rule
-
-.PHONY : tocabi_avatar
-
-# clean rule for target.
-tocabi_avatar/CMakeFiles/tocabi_avatar.dir/clean:
-	$(MAKE) -f tocabi_avatar/CMakeFiles/tocabi_avatar.dir/build.make tocabi_avatar/CMakeFiles/tocabi_avatar.dir/clean
-.PHONY : tocabi_avatar/CMakeFiles/tocabi_avatar.dir/clean
-
-#=============================================================================
 # Target rules for target tocabi_cc/CMakeFiles/tocabi_cc.dir
 
 # All Build rule for target.
@@ -2972,12 +2878,12 @@ tocabi_cc/CMakeFiles/tocabi_cc.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/ro
 tocabi_cc/CMakeFiles/tocabi_cc.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f tocabi_cc/CMakeFiles/tocabi_cc.dir/build.make tocabi_cc/CMakeFiles/tocabi_cc.dir/depend
 	$(MAKE) -f tocabi_cc/CMakeFiles/tocabi_cc.dir/build.make tocabi_cc/CMakeFiles/tocabi_cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=42,43 "Built target tocabi_cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=41,42 "Built target tocabi_cc"
 .PHONY : tocabi_cc/CMakeFiles/tocabi_cc.dir/all
 
 # Build rule for subdir invocation for target.
 tocabi_cc/CMakeFiles/tocabi_cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 48
 	$(MAKE) -f CMakeFiles/Makefile2 tocabi_cc/CMakeFiles/tocabi_cc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : tocabi_cc/CMakeFiles/tocabi_cc.dir/rule
@@ -3048,12 +2954,12 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/all: dyros_tocabi_v2/
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/all: dyros_tocabi_v2/tocabi_controller/CMakeFiles/actionlib_generate_messages_eus.dir/all
 	$(MAKE) -f dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/build.make dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/depend
 	$(MAKE) -f dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/build.make dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=38 "Built target shm_reset"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=38,39 "Built target shm_reset"
 .PHONY : dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/all
 
 # Build rule for subdir invocation for target.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 74
 	$(MAKE) -f CMakeFiles/Makefile2 dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : dyros_tocabi_v2/tocabi_controller/CMakeFiles/shm_reset.dir/rule
@@ -3108,7 +3014,6 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all: dyro
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all: tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all: tocabi_cc/CMakeFiles/tocabi_cc.dir/all
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all: dyros_tocabi_v2/tocabi_controller/CMakeFiles/actionlib_generate_messages_py.dir/all
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all: dyros_tocabi_v2/tocabi_controller/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
@@ -3449,17 +3354,16 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/actionlib_msgs_generate_messages_cp
 
 # All Build rule for target.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/all: dyros_tocabi_v2/tocabi_lib/CMakeFiles/tocabi_lib.dir/all
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/all: tocabi_avatar/CMakeFiles/tocabi_avatar.dir/all
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/all: tocabi_cc/CMakeFiles/tocabi_cc.dir/all
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/all: dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller_lib.dir/all
 	$(MAKE) -f dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/build.make dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/depend
 	$(MAKE) -f dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/build.make dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=44 "Built target tocabi_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=43,44 "Built target tocabi_controller"
 .PHONY : dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/all
 
 # Build rule for subdir invocation for target.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 81
 	$(MAKE) -f CMakeFiles/Makefile2 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/rule
@@ -3508,12 +3412,12 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/actionlib_msgs_generate_messages_no
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/all:
 	$(MAKE) -f dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/build.make dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/depend
 	$(MAKE) -f dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/build.make dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=39,40 "Built target shutdown"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=40 "Built target shutdown"
 .PHONY : dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/all
 
 # Build rule for subdir invocation for target.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : dyros_tocabi_v2/tocabi_controller/CMakeFiles/shutdown.dir/rule
@@ -3899,12 +3803,12 @@ tocabi_gui/CMakeFiles/tocabi_gui.dir/all: tocabi_gui/CMakeFiles/nodelet_generate
 tocabi_gui/CMakeFiles/tocabi_gui.dir/all: tocabi_gui/CMakeFiles/tocabi_gui_autogen.dir/all
 	$(MAKE) -f tocabi_gui/CMakeFiles/tocabi_gui.dir/build.make tocabi_gui/CMakeFiles/tocabi_gui.dir/depend
 	$(MAKE) -f tocabi_gui/CMakeFiles/tocabi_gui.dir/build.make tocabi_gui/CMakeFiles/tocabi_gui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=47,48,49,50,51,52,53,54 "Built target tocabi_gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=47,48,49,50,51,52,53 "Built target tocabi_gui"
 .PHONY : tocabi_gui/CMakeFiles/tocabi_gui.dir/all
 
 # Build rule for subdir invocation for target.
 tocabi_gui/CMakeFiles/tocabi_gui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 tocabi_gui/CMakeFiles/tocabi_gui.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mms-wonchan/catkin_ws/build/CMakeFiles 0
 .PHONY : tocabi_gui/CMakeFiles/tocabi_gui.dir/rule
@@ -3992,7 +3896,7 @@ tocabi_gui/CMakeFiles/tocabi_gui_autogen.dir/all: tocabi_gui/CMakeFiles/bond_gen
 tocabi_gui/CMakeFiles/tocabi_gui_autogen.dir/all: tocabi_gui/CMakeFiles/nodelet_generate_messages_nodejs.dir/all
 	$(MAKE) -f tocabi_gui/CMakeFiles/tocabi_gui_autogen.dir/build.make tocabi_gui/CMakeFiles/tocabi_gui_autogen.dir/depend
 	$(MAKE) -f tocabi_gui/CMakeFiles/tocabi_gui_autogen.dir/build.make tocabi_gui/CMakeFiles/tocabi_gui_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=55 "Built target tocabi_gui_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mms-wonchan/catkin_ws/build/CMakeFiles --progress-num=54 "Built target tocabi_gui_autogen"
 .PHONY : tocabi_gui/CMakeFiles/tocabi_gui_autogen.dir/all
 
 # Build rule for subdir invocation for target.

@@ -7,7 +7,6 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/devel/include/tocabi_msgs/TaskCommand.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/devel/include/tocabi_msgs/TaskCommandQue.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/devel/include/tocabi_msgs/TaskGainCommand.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/devel/include/tocabi_msgs/WalkingCommand.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/devel/include/tocabi_msgs/matrix_3_4.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/devel/include/tocabi_msgs/positionCommand.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/src/dyros_tocabi_v2/tocabi_controller/include/tocabi_controller/state_manager.h
@@ -20,17 +19,14 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/src/dyros_tocabi_v2/tocabi_lib/include/tocabi_lib/robot_data.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/src/dyros_tocabi_v2/tocabi_lib/include/tocabi_lib/tocabi.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/src/dyros_tocabi_v2/tocabi_lib/include/wholebody_functions.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/src/tocabi_avatar/include/avatar.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/src/tocabi_cc/include/cc.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /home/mms-wonchan/catkin_ws/src/tocabi_cc/include/mpc.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/eigen_conversions/eigen_msg.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/Point.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/Point32.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/PointStamped.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/Polygon.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/PolygonStamped.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/Pose.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/PoseArray.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/PoseStamped.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/Quaternion.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/QuaternionStamped.h
@@ -38,7 +34,6 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/TransformStamped.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/Twist.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/Vector3.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/geometry_msgs/Wrench.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/ros/advertise_options.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/ros/advertise_service_options.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/ros/assert.h
@@ -100,10 +95,8 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/rosconsole/macros_generated.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/sensor_msgs/JointState.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/std_msgs/Bool.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/std_msgs/ColorRGBA.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/std_msgs/Float32.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/std_msgs/Float32MultiArray.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/std_msgs/Float64MultiArray.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/std_msgs/Header.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/std_msgs/Int16MultiArray.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/std_msgs/Int32MultiArray.h
@@ -124,8 +117,6 @@ dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/tf2/transform_datatypes.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/tf2_eigen/tf2_eigen.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/tf2_ros/transform_broadcaster.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/visualization_msgs/Marker.h
-dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/visualization_msgs/MarkerArray.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
 dyros_tocabi_v2/tocabi_controller/CMakeFiles/tocabi_controller.dir/src/main.cpp.o: /usr/include/eigen3/Eigen/Cholesky

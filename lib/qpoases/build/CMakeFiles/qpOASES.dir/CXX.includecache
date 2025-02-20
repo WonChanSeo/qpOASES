@@ -207,6 +207,8 @@ qpOASES/QProblem.hpp
 -
 qpOASES/LapackBlasReplacement.hpp
 -
+iostream
+-
 
 /home/mms-wonchan/lib/qpoases/src/QProblemB.cpp
 qpOASES/QProblemB.hpp
@@ -216,6 +218,8 @@ qpOASES/LapackBlasReplacement.hpp
 
 /home/mms-wonchan/lib/qpoases/src/SQProblem.cpp
 qpOASES/SQProblem.hpp
+-
+iostream
 -
 
 /home/mms-wonchan/lib/qpoases/src/SQProblemSchur.cpp

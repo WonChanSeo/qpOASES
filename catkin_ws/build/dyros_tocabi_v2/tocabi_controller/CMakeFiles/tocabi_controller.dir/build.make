@@ -121,7 +121,6 @@ tocabi_controller_EXTERNAL_OBJECTS =
 /home/mms-wonchan/catkin_ws/devel/lib/tocabi_controller/tocabi_controller: /opt/ros/noetic/lib/libmessage_filters.so
 /home/mms-wonchan/catkin_ws/devel/lib/tocabi_controller/tocabi_controller: /opt/ros/noetic/lib/libtf2.so
 /home/mms-wonchan/catkin_ws/devel/lib/tocabi_controller/tocabi_controller: /home/mms-wonchan/catkin_ws/devel/lib/libtocabi_cc.so
-/home/mms-wonchan/catkin_ws/devel/lib/tocabi_controller/tocabi_controller: /home/mms-wonchan/catkin_ws/devel/lib/libtocabi_avatar.so
 /home/mms-wonchan/catkin_ws/devel/lib/tocabi_controller/tocabi_controller: /home/mms-wonchan/catkin_ws/devel/lib/libtocabi_lib.so
 /home/mms-wonchan/catkin_ws/devel/lib/tocabi_controller/tocabi_controller: /usr/local/lib/librbdl.so
 /home/mms-wonchan/catkin_ws/devel/lib/tocabi_controller/tocabi_controller: /usr/local/lib/librbdl_urdfreader.so

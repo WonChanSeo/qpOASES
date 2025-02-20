@@ -1208,19 +1208,6 @@ mujoco_ros_lib/fast:
 .PHONY : mujoco_ros_lib/fast
 
 #=============================================================================
-# Target rules for targets named tocabi_avatar
-
-# Build rule for target.
-tocabi_avatar: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tocabi_avatar
-.PHONY : tocabi_avatar
-
-# fast build rule for target.
-tocabi_avatar/fast:
-	$(MAKE) -f tocabi_avatar/CMakeFiles/tocabi_avatar.dir/build.make tocabi_avatar/CMakeFiles/tocabi_avatar.dir/build
-.PHONY : tocabi_avatar/fast
-
-#=============================================================================
 # Target rules for targets named tocabi_cc
 
 # Build rule for target.
@@ -1729,7 +1716,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... mujoco_ros"
 	@echo "... mujoco_ros_lib"
-	@echo "... tocabi_avatar"
 	@echo "... tocabi_cc"
 	@echo "... shm_reset"
 	@echo "... tocabi_controller_lib"
